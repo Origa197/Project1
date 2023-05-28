@@ -1,0 +1,15 @@
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+.ImgCard {
+    display: flex;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    transition: 0.25s;
+    border: aliceblue;
+}
+.ImgCard:hover {
+    transform: scale(1.5);
+}
